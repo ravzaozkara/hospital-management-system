@@ -1,0 +1,727 @@
+<!DOCTYPE html> 
+<html lang="en">
+	
+<!-- doccure/  30 Nov 2019 04:11:34 GMT -->
+	<head>
+
+	        <meta charset="utf-8">
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+			<title>Doccure</title>
+
+			<!-- Favicons -->
+			<link type="image/x-icon" href="assets/img/favicon.png" rel="icon">
+
+			<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+			<!-- Fontawesome CSS -->
+			<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+			<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+			<!-- Main CSS -->
+			<link rel="stylesheet" href="assets/css/style1.css">
+
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+				<script src="assets/js/html5shiv.min.js"></script>
+				<script src="assets/js/respond.min.js"></script>
+			<![endif]-->
+
+	</head>
+	<body>
+
+		<!-- Main Wrapper -->
+		<div class="main-wrapper">
+			
+			<!-- Header -->
+			<header class="header">
+			    <nav class="navbar navbar-expand-lg">
+			        <div class="container">
+			            <a class="navbar-brand" href="index.html">
+							<h1 class="navbar-brand">Shifa Hospital</h1>
+					    </a>
+			            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			                <span class="navbar-toggler-icon"></span>
+			            </button>
+			            <div class="collapse navbar-collapse" id="navbarNav">
+			                <ul class="navbar-nav ms-auto">
+			                    <li class="nav-item">
+			                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			                    </li>
+			                    <li class="nav-item dropdown">
+			                        <a class="nav-link dropdown-toggle" href="#" id="doctorsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			                            Doctors
+			                        </a>
+			                        <ul class="dropdown-menu" aria-labelledby="doctorsDropdown">
+			                            <li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
+			                            <li><a href="doctor-register.html">Doctor Register</a></li>
+			                        </ul>
+			                    </li>
+			                    <li class="nav-item dropdown">
+			                        <a class="nav-link dropdown-toggle" href="#" id="patientsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			                            Patients
+			                        </a>
+			                        <ul class="dropdown-menu" aria-labelledby="patientsDropdown">
+			                            <li><a href="search.html">Book Appointment</a></li>
+			                            <li><a href="patient-dashboard.html">Patient Dashboard</a></li>
+			                        </ul>
+			                    </li>
+			                    <li class="nav-item">
+			                        <a class="nav-link" href="admin/index.html" target="_blank">Admin</a>
+			                    </li>
+			                </ul>
+			            </div>
+			        </div>
+			        <div class="header-right">
+			            <div class="header-login">
+			                <a href="login.html" class="login-btn">Login</a>
+			                <a href="register.html" class="signup-btn">Signup</a>
+			            </div>
+			        </div>
+			        <ul class="nav header-navbar-rht">
+			            <li class="nav-item contact-item">
+			                <div class="header-contact-img">
+			                    <i class="far fa-hospital"></i>
+			                </div>
+			                <div class="header-contact-detail">
+			                    <p class="contact-header">Contact</p>
+			                    <p class="contact-info-header">+1 315 369 5943</p>
+			                </div>
+			            </li>
+			        </ul>
+			    </nav>
+			</header>
+			<!-- /Header -->
+
+
+			<!-- Home Banner -->
+			<section id="hero" class="d-flex align-items-center">
+				<div class="container">
+				  <h1>Welcome to Shifa Hospital</h1>
+				  <h2>We are with you for your health!</h2>
+				  <a href="#about" class="btn-get-started scrollto">Get Started</a>
+				</div>
+			</section>
+			<!-- /Home Banner -->
+			
+			<main id="main">
+
+				<!-- ======= Why Us Section ======= -->
+				<section id="why-us" class="why-us">
+				  <div class="container">
+			
+					<div class="row">
+					  <div class="col-lg-4 d-flex align-items-stretch">
+						<div class="content">
+						  <h3>Why Choose Shifa Hospital?</h3>
+						  <p>
+							We are with you with our huge staff and certified quality in health. We are always with you with our expert staff in their fields. 
+						  </p>
+						  <div class="text-center">
+							<a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-lg-8 d-flex align-items-stretch">
+						<div class="icon-boxes d-flex flex-column justify-content-center">
+						  <div class="row">
+							<div class="col-xl-4 d-flex align-items-stretch">
+							  <div class="icon-box mt-4 mt-xl-0">
+								<i class="bx bx-receipt"></i>
+								<h4>Turkey's first JCI Accreditation Certificate</h4>
+								<p>*Şişli, Ankara, Bahçelievler, Gaza</p>
+							  </div>
+							</div>
+							<div class="col-xl-4 d-flex align-items-stretch">
+							  <div class="icon-box mt-4 mt-xl-0">
+								<i class="bx bx-cube-alt"></i>
+								<h4>ISO Accreditation Certificate</h4>
+								<p>*Şişli</p>
+							  </div>
+							</div>
+							<div class="col-xl-4 d-flex align-items-stretch">
+							  <div class="icon-box mt-4 mt-xl-0">
+								<i class="bx bx-images"></i>
+								<h4>First Leed Platinum Certificate</h4>
+								<p>*Bahçelievler</p>
+							  </div>
+							</div>
+						  </div>
+						</div><!-- End .content-->
+					  </div>
+					</div>
+			
+				  </div>
+				</section><!-- End Why Us Section -->
+			
+				<!-- ======= About Section ======= -->
+				<section id="about" class="about">
+				  <div class="container-fluid">
+			
+					<div class="row">
+					  <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+						<img src="assets/img/departments-1.jpg" alt="" class="img-fluid">			
+					  </div>
+			
+					  <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+						<h3>Expert Doctor Team, More than 19 Years of Experience</h3>
+						<p>Shifa Hospital Group was the first Turkish hospital to become JCI (Joint Commission International) accredited, the gold standard in health care. With 11 highly technological and patient-oriented hospitals and 2 medical centers and 1 wellness center  in 5 Turkish cities, the group serve 75,000 international patients from +167 countries annually.</p>
+			
+						<div class="icon-box">
+						  <!-- <h4 class="title"><a href="">Lorem Ipsum</a></h4> -->
+						  <p class="description">✓ World-class healthcare services with 11 hospitals, 2 medical centers, 1 wellness cente and 7.000+ employees </p>
+						  <p class="description">✓ Internationally known departments</p>
+						  <p class="description">✓ Centers of excellence for several key  specialities (Orthopedics, Cardiology, Neurosciences, Urology, Gynecology, Hematology) </p>
+						  <p class="description">✓ Integrated team approach combined with cutting-edge technology in Oncology (TrueBeam STx, PET-CT, ELEKTA Versa HD)</p>
+						  <p class="description">✓ Multilanguage speaking staff and provision of interpreting services</p>
+						  <p class="description">✓ International reference centers for In-Vitro with 9.000 cycles per year.</p>
+						  <p class="description">✓ 24/7 emergency care</p>  
+						</div>
+					  </div>
+					</div>
+			
+				  </div>
+				</section><!-- End About Section -->
+			
+				<!-- ======= Counts Section ======= -->
+				<section id="counts" class="counts">
+				  <div class="container">
+			
+					<div class="row">
+			
+					  <div class="col-lg-3 col-md-6">
+						<div class="count-box">
+						  <i class="fas fa-user-md"></i>
+						  <span data-purecounter-start="0" data-purecounter-end="185" data-purecounter-duration="1" class="purecounter"></span>
+						  <p>Doctors</p>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+						<div class="count-box">
+						  <i class="far fa-hospital"></i>
+						  <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+						  <p>Departments</p>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+						<div class="count-box">
+						  <i class="fas fa-flask"></i>
+						  <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+						  <p>Research Labs</p>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+						<div class="count-box">
+						  <i class="fas fa-award"></i>
+						  <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+						  <p>Awards</p>
+						</div>
+					  </div>
+			
+					</div>
+			
+				  </div>
+				</section><!-- End Counts Section -->
+			
+				<!-- ======= Services Section ======= -->
+				<section id="services" class="services">
+				  <div class="container">
+			
+					<div class="section-title">
+					  <h2>Services</h2>
+					</div>
+			
+					<div class="row">
+					  <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+						<div class="icon-box">
+						  <div class="icon"><i class="fas fa-heartbeat"></i></div>
+						  <h4><a href="">Check-Up</a></h4>
+						  <p>Special check-up packages for all ages and people</p>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+						<div class="icon-box">
+						  <div class="icon"><i class="fas fa-pills"></i></div>
+						  <h4><a href="">E-Result</a></h4>
+						  <p>     Instant access to your results from everywhere                  </p>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+						<div class="icon-box">
+						  <div class="icon"><i class="fas fa-hospital-user"></i></div>
+						  <h4><a href="">Online Doctor Examination</a></h4>
+						  <p>Inspection accessible from anywhere</p>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+						<div class="icon-box">
+						  <div class="icon"><i class="fas fa-dna"></i></div>
+						  <h4><a href="">Genetic Diagnosis Center</a></h4>
+						  <p>World-class genetic research center</p>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+						<div class="icon-box">
+						  <div class="icon"><i class="fas fa-wheelchair"></i></div>
+						  <h4><a href="">Fully accessible hospital</a></h4>
+						  <p>Special assistant for people with disabilities</p>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+						<div class="icon-box">
+						  <div class="icon"><i class="fas fa-notes-medical"></i></div>
+						  <h4><a href="">Rehabilitation center</a></h4>
+						  <p>Specialized rehabilitation center</p>
+						</div>
+					  </div>
+			
+					</div>
+			
+				  </div>
+				</section><!-- End Services Section -->
+			
+				<!-- ======= Appointment Section ======= -->
+				<section id="appointment" class="appointment section-bg">
+				  <div class="container">
+			
+					<div class="section-title">
+					  <h2>Make an Appointment</h2>
+					  <p>Your appointment information will be sent to you by sms.</p>
+					</div>
+			
+					<form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+					  <div class="row">
+						<div class="col-md-4 form-group">
+						  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+						  <div class="validate"></div>
+						</div>
+						<div class="col-md-4 form-group mt-3 mt-md-0">
+						  <input type="number" class="form-control" name="tc" id="tc no" placeholder="Your tc" data-rule="minlen:11" data-msg="Please enter a valid tc">
+						  <div class="validate"></div>
+						</div>
+						<div class="col-md-4 form-group mt-3 mt-md-0">
+						  <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+						  <div class="validate"></div>
+						</div>
+					  </div>
+					  <div class="row">
+						<div class="col-md-4 form-group mt-3">
+						  <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+						  <div class="validate"></div>
+						</div>
+						<div class="col-md-4 form-group mt-3">
+						  <select name="department" id="department" class="form-select">
+							<option value="">Select Department</option>
+							<option value="Department 1">Aesthetic, Plastic and Reconstructive Surgery</option>
+							<option value="Department 2">Cardiology</option>
+							<option value="Department 3">Dermatology (Skin and Venereal Diseases)</option>
+							<option value="Department 4">Ear, Nose and Throat Diseases</option>
+							<option value="Department 5">Endocrinology and Metabolic Diseases</option>
+							<option value="Department 6">Gastroenterology</option>
+							<option value="Department 7">General Surgery</option>
+							<option value="Department 8">Gynecology and Obstetrics</option>
+							<option value="Department 9">Internal Medicine</option>
+							<option value="Department 10">Neurology</option>
+							<option value="Department 11">Ophthalmology</option>
+							<option value="Department 12">Orthopedics and Traumatology</option>
+							<option value="Department 13">Pediatrics</option>
+							<option value="Department 14">Physical Therapy and Rehabilitation</option>
+							<option value="Department 15">Psychiatry</option>
+							<option value="Department 16">Radiology</option>
+							<option value="Department 17">Urology</option>
+						  </select>
+						  <div class="validate"></div>
+						</div>
+						<div class="col-md-4 form-group mt-3">
+						  <select name="doctor" id="doctor" class="form-select">
+							<option value="">Select Doctor</option>
+							<option value="Doctor 1">Evren Yalkin</option>
+							<option value="Doctor 2">Bahar Yavuzoglu</option>
+							<option value="Doctor 3">Ela Altindag</option>
+							<option value="Doctor 4">Levent Atahanli</option>
+							<option value="Doctor 5">Zenan Parlar</option>
+							<option value="Doctor 6">Mehmet Yildirim</option>
+							<option value="Doctor 7">Fikret Eralp</option>
+						  </select>
+						  <div class="validate"></div>
+						</div>
+					  </div>
+			
+					  <div class="form-group mt-3">
+						<textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+						<div class="validate"></div>
+					  </div>
+					  <div class="mb-3">
+						<div class="loading">Loading</div>
+						<div class="error-message"></div>
+						<div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+					  </div>
+					  <div class="text-center"><button type="submit">Make an Appointment</button></div>
+					</form>
+			
+				  </div>
+				</section><!-- End Appointment Section -->
+			
+				<!-- ======= Departments Section ======= -->
+				<section id="departments" class="departments">
+				  <div class="container">
+			
+					<div class="section-title">
+					  <h2>Departments</h2>
+					</div>
+			
+					<div class="row gy-4">
+					  <div class="col-lg-3">
+						<ul class="nav nav-tabs flex-column">
+						  <li class="nav-item">
+							<a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Aesthetic, Plastic and Reconstructive Surgery</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-2">Cardiology</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-3">Dermatology (Skin and Venereal Diseases)</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-4">Ear, Nose and Throat Diseases</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-5">Endocrinology and Metabolic Diseases</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-6">Gastroenterology</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-7">General Surgery</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-8">Gynecology and Obstetrics</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-9">Internal Medicine</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-10">Neurology</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-11">Ophthalmology</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-12">Orthopedics and Traumatology</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-13">Pediatrics</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-14">Physical Therapy and Rehabilitation</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-15">Psychiatry</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-16">Radiology</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" data-bs-toggle="tab" href="#tab-17">Urology</a>
+						  </li>
+						</ul>
+					  </div>
+					  <div class="col-lg-9">
+						<div class="tab-content">
+						  <div class="tab-pane active show" id="tab-1">
+							<div class="row gy-4">
+							  <div class="col-lg-8 details order-2 order-lg-1">
+								<h3>Aesthetic, Plastic and Reconstructive Surgery</h3>
+								<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+								<p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+							  </div>
+							  <div class="col-lg-4 text-center order-1 order-lg-2">
+								<img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+			
+				  </div>
+				</section><!-- End Departments Section -->
+			
+				<!-- ======= Doctors Section ======= -->
+				<section id="doctors" class="doctors">
+				  <div class="container">
+			
+					<div class="section-title">
+					  <h2>Doctors</h2>
+					  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+					</div>
+			
+					<div class="row">
+			
+					  <div class="col-lg-6">
+						<div class="member d-flex align-items-start">
+						  <div class="pic"><img src="assets/img/doctors/doctors-1.jpeg" class="img-fluid" alt=""></div>
+						  <div class="member-info">
+							<h4>Ela Altındağ </h4>
+							<span>Chief Medical Officer</span>
+							<p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+						  </div>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-6 mt-4 mt-lg-0">
+						<div class="member d-flex align-items-start">
+						  <div class="pic"><img src="assets/img/doctors/doctors-2.jpeg" class="img-fluid" alt=""></div>
+						  <div class="member-info">
+							<h4>Levent Atahanlı</h4>
+							<span>Neurology</span>
+							<p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+						  </div>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-6 mt-4">
+						<div class="member d-flex align-items-start">
+						  <div class="pic"><img src="assets/img/doctors/doctors-3.jpeg" class="img-fluid" alt=""></div>
+						  <div class="member-info">
+							<h4>Zenan Parlar</h4>
+							<span>Cardiology</span>
+							<p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+						  </div>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-6 mt-4">
+						<div class="member d-flex align-items-start">
+						  <div class="pic"><img src="assets/img/doctors/doctors-4.jpeg" class="img-fluid" alt=""></div>
+						  <div class="member-info">
+							<h4>Fikret Eralp</h4>
+							<span>Neurosurgeon</span>
+							<p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+						  </div>
+						</div>
+					  </div>
+			
+					</div>
+			
+				  </div>
+				</section><!-- End Doctors Section -->
+			
+				<!-- ======= Frequently Asked Questions Section ======= -->
+				<section id="faq" class="faq section-bg">
+				  <div class="container">
+			
+					<div class="section-title">
+					  <h2>Frequently Asked Questions</h2>
+					</div>
+			
+					<div class="faq-list">
+					  <ul>
+						<li data-aos="fade-up">
+						  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Does the hospital offer any specialty services? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+						  <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+							<p>
+								Yes, in addition to our general medical and surgical services, we also have specialized departments for cardiology, oncology, orthopedics, and women's health.							</p>
+						  </div>
+						</li>
+			
+						<li data-aos="fade-up" data-aos-delay="100">
+						  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What should I do in an emergency? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+						  <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+							<p>
+								In the event of a medical emergency, please call 911 or go directly to our emergency department. Our team is available 24/7 to provide immediate care.</p>
+						  </div>
+						</li>
+			
+						<li data-aos="fade-up" data-aos-delay="200">
+						  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What are the visiting hours for patients? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+						  <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+							<p>
+								Visiting hours are from 9 AM to 8 PM daily. Visitors are asked to check in at the front desk upon arrival.</p>
+						  </div>
+						</li>
+			
+						<li data-aos="fade-up" data-aos-delay="300">
+						  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">How do I make an appointment with a doctor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+						  <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+							<p>
+								You can make an appointment by calling our scheduling line at (123) 456-7890 or by using our online scheduling portal on our website.</p>
+						  </div>
+						</li>
+			
+						<li data-aos="fade-up" data-aos-delay="400">
+						  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What should I bring to my first appointment? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+						  <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+							<p>
+								Please bring your insurance card, a valid ID, and any relevant medical records or test results. This will help us provide the best care for you.</p>
+						  </div>
+						</li>
+			
+					  </ul>
+					</div>
+			
+				  </div>
+				</section><!-- End Frequently Asked Questions Section -->
+			
+			
+				<!-- ======= Gallery Section ======= -->
+				<section id="gallery" class="gallery">
+				  <div class="container">
+			
+					<div class="section-title">
+					  <h2>Gallery</h2>
+					</div>
+				  </div>
+			
+				  <div class="container-fluid">
+					<div class="row g-0">
+			
+					  <div class="col-lg-3 col-md-4">
+						<div class="gallery-item">
+						  <a href="assets/img/gallery/gallery-1.jpg" class="galelry-lightbox">
+							<img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+						  </a>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-4">
+						<div class="gallery-item">
+						  <a href="assets/img/gallery/gallery-2.jpg" class="galelry-lightbox">
+							<img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+						  </a>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-4">
+						<div class="gallery-item">
+						  <a href="assets/img/gallery/gallery-3.jpg" class="galelry-lightbox">
+							<img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+						  </a>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-4">
+						<div class="gallery-item">
+						  <a href="assets/img/gallery/gallery-4.jpg" class="galelry-lightbox">
+							<img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+						  </a>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-4">
+						<div class="gallery-item">
+						  <a href="assets/img/gallery/gallery-5.jpg" class="galelry-lightbox">
+							<img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+						  </a>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-4">
+						<div class="gallery-item">
+						  <a href="assets/img/gallery/gallery-6.jpg" class="galelry-lightbox">
+							<img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+						  </a>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-4">
+						<div class="gallery-item">
+						  <a href="assets/img/gallery/gallery-7.jpg" class="galelry-lightbox">
+							<img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+						  </a>
+						</div>
+					  </div>
+			
+					  <div class="col-lg-3 col-md-4">
+						<div class="gallery-item">
+						  <a href="assets/img/gallery/gallery-8.jpg" class="galelry-lightbox">
+							<img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+						  </a>
+						</div>
+					  </div>
+			
+					</div>
+			
+				  </div>
+				</section><!-- End Gallery Section -->
+			
+				<!-- ======= Contact Section ======= -->
+				<section id="contact" class="contact">
+				  <div class="container">
+			
+					<div class="section-title">
+					  <h2>Contact</h2>
+					</div>
+				  </div>
+			
+				  <div>
+					<iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48154.04903057306!2d28.99019516759158!3d41.03339246542774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1715175083722!5m2!1str!2str" frameborder="0" allowfullscreen></iframe>
+				  </div>
+				</section><!-- End Contact Section -->
+			
+			  </main><!-- End #main -->
+			
+			  <!-- ======= Footer ======= -->
+			  <footer id="footer">
+			
+				<div class="footer-top">
+				  <div class="container">
+					<div class="row">
+			
+					  <div class="col-lg-3 col-md-6 footer-contact">
+						<h3>Shifa Hospital</h3>
+						<p>
+						  Yıldız Street <br>
+						  Beşiktaş, İstanbul<br>
+						  Türkiye <br><br>
+						  <strong>Phone:</strong>0 212 555 55 55<br>
+						  <strong>Email:</strong> shifahospital@contact.com<br>
+						</p>
+					  </div>		
+					</div>
+				  </div>
+				</div>
+			  </footer><!-- End Footer -->
+			
+			  <div id="preloader"></div>
+			  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+			
+			  <!-- Vendor JS Files -->
+			  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+			  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+			  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+			  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+			  <script src="assets/vendor/php-email-form/validate.js"></script>
+			
+			  <!-- Template Main JS File -->
+			  <script src="assets/js/main.js"></script>
+
+
+		</div>
+		<!-- /Main Wrapper -->
+
+		<!-- jQuery -->
+		<script src="assets/js/jquery.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- Slick JS -->
+		<script src="assets/js/slick.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="assets/js/script.js"></script>
+
+	</body>
+
+
+</html>
